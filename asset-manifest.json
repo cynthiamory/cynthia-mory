@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/cynthia-mory/static/css/main.31d6cfe0.css",
+    "main.js": "/cynthia-mory/static/js/main.85ad3482.js",
+    "index.html": "/cynthia-mory/index.html",
+    "main.85ad3482.js.map": "/cynthia-mory/static/js/main.85ad3482.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.85ad3482.js"
+  ]
+}
