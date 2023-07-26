@@ -6,19 +6,20 @@ class About extends Component {
    render() {
       //VARIABLES FOR DATA FROM JSON FILE IF IT EXISTS
       if (this.props.data) {
-         var name = this.props.data.name;
-         var profilepic = "images/" + this.props.data.image;
-         var bio = this.props.data.bio;
-         var street = this.props.data.address.street;
-         var city = this.props.data.address.city;
-         var state = this.props.data.address.state;
-         var zip = this.props.data.address.zip;
-         var phone = this.props.data.phone;
-         var email = this.props.data.email;
-         var resumeDownload = this.props.data.resumedownload;
+         var name = this.props.data.name;                 // Store 'name' from the data
+         var profilepic = "images/" + this.props.data.image;  // Store profile picture path
+         var bio = this.props.data.bio;                   // Store biography
+         var street = this.props.data.address.street;     // Store street address
+         var city = this.props.data.address.city;         // Store city
+         var state = this.props.data.address.state;       // Store state
+         var zip = this.props.data.address.zip;           // Store zip code
+         var phone = this.props.data.phone;               // Store phone number
+         var email = this.props.data.email;               // Store email
+         var resumeDownload = this.props.data.resumedownload; // Store resume download link
       }
 
       return (
+         // ABOUT SECTION
          <section id="about">
             <div className="row">
                <div className="three columns">
