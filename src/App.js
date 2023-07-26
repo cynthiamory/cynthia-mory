@@ -17,7 +17,7 @@ import Portfolio from './Components/Portfolio';
 // Define the main App component.
 class App extends Component {
 
-  constructor(props){
+  constructor(props) {
     super(props);
     // Set up the initial state for the component.
     this.state = {
@@ -27,16 +27,16 @@ class App extends Component {
   }
 
   // Function to fetch resume data using AJAX.
-  getResumeData(){
+  getResumeData() {
     $.ajax({
-      url:'/resumeData.json', // The URL to fetch resume data from.
-      dataType:'json', // The expected data type (JSON in this case).
+      url: '/resumeData.json', // The URL to fetch resume data from.
+      dataType: 'json', // The expected data type (JSON in this case).
       cache: false, // Disable caching of the AJAX request.
-      success: function(data){
+      success: function (data) {
         // On successful AJAX request, update the component's state with the fetched data.
-        this.setState({resumeData: data});
+        this.setState({ resumeData: data });
       }.bind(this),
-      error: function(xhr, status, err){
+      error: function (xhr, status, err) {
         // Handle any errors that occur during the AJAX request.
         console.log(err);
         alert(err);
@@ -46,7 +46,7 @@ class App extends Component {
 
   // Lifecycle method: componentDidMount.
   // This method is called after the component has been rendered to the screen.
-  componentDidMount(){
+  componentDidMount() {
     // Call the function to fetch resume data when the component is mounted.
     this.getResumeData();
   }
@@ -56,13 +56,13 @@ class App extends Component {
     return (
       <div className="App">
         {/* Render each component with the corresponding data from the state. */}
-        <Header data={this.state.resumeData.main}/>
-        <About data={this.state.resumeData.main}/>
-        <Resume data={this.state.resumeData.resume}/>
-        <Portfolio data={this.state.resumeData.portfolio}/>
-        <Testimonials data={this.state.resumeData.testimonials}/>
-        <Contact data={this.state.resumeData.main}/>
-        <Footer data={this.state.resumeData.main}/>
+        <Header data={this.state.resumeData.main} />
+        <About data={this.state.resumeData.main} />
+        <Resume data={this.state.resumeData.resume} />
+        <Portfolio data={this.state.resumeData.portfolio} />
+        <Testimonials data={this.state.resumeData.testimonials} />
+        <Contact data={this.state.resumeData.main} />
+        <Footer data={this.state.resumeData.main} />
       </div>
     );
   }
