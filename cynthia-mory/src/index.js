@@ -1,17 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// Import necessary modules and styles.
+import React from 'react'; // Import React library.
+import ReactDOM from 'react-dom'; // Import ReactDOM library for rendering components to the DOM.
+import './index.css'; // Import the CSS styles for the application.
+import App from './App'; // Import the main App component.
+import registerServiceWorker from './registerServiceWorker'; // Import the service worker for offline caching.
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// Render the App component to the root element in the DOM.
+ReactDOM.render(<App />, document.getElementById('root'));
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// Register the service worker to enable offline caching and better performance.
+registerServiceWorker();
+
