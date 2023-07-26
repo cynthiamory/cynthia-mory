@@ -1,0 +1,173 @@
+{
+  "main": {
+    "name": "Cynthia Mory",
+    "occupation": "Full-Stack Web Developer",
+    "description": "Just a girl with a passion for design & coding",
+    "image": "profile-pic.jpg",
+    "bio": "My name is Cynthia, I'm a new to the coding world. Currently I'm looking for a full-time junior developer position.",
+    "contactmessage": "Get in touch with me to receive further details.",
+    "email": "hello@gridhq.ca",
+    "phone": "+01 234 567 890",
+    "address": {
+      "city": "Toronto",
+      "state": "ON"
+    },
+    "website": "https://cynthiamory.github.io/cynthias-mory/",
+    "resumedownload": "https://drive.google.com/file/d/1Lwg9kPGtddU22mowRXvwVhx5wOYiDmZl/view?usp=sharing",
+    "social": [
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/cynthiamory",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/cynthiamory/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/gridhq.ca/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/cynthiamory",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Download my Resume for more details on my experience.",
+    "education": [
+      {
+        "school": "University Of Toronto",
+        "degree": "Diploma in Full Stack Web Development",
+        "graduated": "August 2023",
+        "description": "A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS."
+      },
+      {
+        "school": "Real Estate & Mortgage Institute of Canada Inc.",
+        "degree": "Mortgage Agent Course Certificate for Licensing (RMAC)",
+        "graduated": "Feb 2020"
+      },
+      {
+        "school": "Dental Office Administration & Chair Side Assistant",
+        "degree": "CDI College of Business, Technology & Health Care",
+        "graduated": "Jan 2005"
+      }
+    ],
+    "work": [
+      {
+        "company": "GridHQ",
+        "title": "Creative Director",
+        "years": "2010 - Present",
+        "description": "Developed a social media strategy to increase online visibility of various clients. Managed social media & created creative content for daily postings. Design & development of client websites. Graphic design for digital & print. Designing logo & brand identity. Working with various clients from different industries."
+      },
+      {
+        "company": "Lowes Canada | RONA Inc.",
+        "title": "HR & Payroll Admin | JHSC Associate",
+        "years": "2021 - Present",
+        "description": "Responsible for managing employee records, processing payroll, and administering various HR and Office tasks. I maintaining accurate employee data, handling timekeeping and attendance systems, assisting with benefits administration, and ensuring compliance with labor laws and company policies."
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "70%"
+      },
+      {
+        "name": "Javascript",
+        "level": "85%"
+      },
+      {
+        "name": "Git",
+        "level": "90%"
+      },
+      {
+        "name": "MySQL DB",
+        "level": "55%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "75%"
+      },
+      {
+        "name": "Bootsrap",
+        "level": "70%"
+      },
+      {
+        "name": "HTML5",
+        "level": "85%"
+      },
+      {
+        "name": "CSS",
+        "level": "88%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "GridHQ",
+        "category": "A wordpress website for my business. (html, css, wordpress)",
+        "image": "gridhq.png",
+        "url": "https://www.gridhq.ca/"
+      },
+      {
+        "title": "Rentix",
+        "category": "An Event & Rental API Application !(html, css, handlebars, sequelize, nodejs, expressjs, mysql, javascript, node.js)",
+        "image": "rentix.png",
+        "url": "https://rentixx-64a3fa155998.herokuapp.com/"
+      },
+      {
+        "title": "Stormy Budget Exchange",
+        "category": "A Travel App to track your budget, currency and weather advisory.(HTML, CSS, Javascript, jQuery, Bootstrap, API, Day.js.",
+        "image": "storybudgetexchange.png",
+        "url": "https://cynthiamory.github.io/stormy-budget-exchange/"
+      },
+      {
+        "title": "Note Express",
+        "category": "An application called Note Express (Note Taker) that can be used to write and save notes. (Javascript, Node.js, Express.js,Heroku)",
+        "image": "noteexpress.png",
+        "url": "https://cynthias-note-express.herokuapp.com/"
+      },
+      {
+        "title": "The First Portfolio",
+        "category": "My basic portfolio. (html, css, github pages)",
+        "image": "portfolio1.png",
+        "url": "https://cynthiamory.github.io/cynthias-portfolio/#about"
+      },
+      {
+        "title": "The Weather Watcher",
+        "category": "The purpose of this application is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS. (html, css, js, bootstrap, API)",
+        "image": "weatherwatcher.png",
+        "url": "https://cynthiamory.github.io/weather-watcher/"
+      },
+      {
+        "title": "Oh JATE",
+        "category": "Progressive Web Applications (PWA): Text Editor. (javascript, nodejs, nodemon, NPM, Babel, webpack, expressjs, heroku)",
+        "image": "ohjate.png",
+        "url": "https://oh-jate-df48566a1d41.herokuapp.com/"
+      },
+      {
+        "title": "The Book Search",
+        "category": "a fully functioning Google Books API search engine built with a RESTful API, and refactor it to be a GraphQL API built with Apollo Server. (MERN, React, GraphQL, Apollo Server, Node.js, Express.js, MongoDB, Heroku)",
+        "image": "booksearch-soon.png",
+        "url": "https://github.com/cynthiamory"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Cynthia knew exactly what we wanted! Our website looks amazing and the turn around time was really quick.",
+        "user": "Inertia Legal"
+      },
+      {
+        "text": "Thanks to Cynthia, most of our customers visit our store via Social Media.",
+        "user": "Iconic Furniture"
+      }
+    ]
+  }
+}
