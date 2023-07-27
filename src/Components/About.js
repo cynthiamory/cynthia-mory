@@ -7,7 +7,7 @@ class About extends Component {
       //VARIABLES FOR DATA FROM JSON FILE IF IT EXISTS
       if (this.props.data) {
          var name = this.props.data.name;                 // Store 'name' from the data
-         var profilepic = process.env.PUBLIC_URL + '/images/' + this.props.data // Store profile picture path
+         var profilepic = process.env.PUBLIC_URL + '/images/' + this.props.data.image // Store profile picture path
          var bio = this.props.data.bio;                   // Store biography
          var street = this.props.data.address.street;     // Store street address
          var city = this.props.data.address.city;         // Store city
