@@ -29,7 +29,7 @@ class App extends Component {
   // Function to fetch resume data using AJAX.
   getResumeData() {
     $.ajax({
-      url: '/resumeData.json', // The URL to fetch resume data from.
+      url: process.env.PUBLIC_URL + '/resumeData.json', // The URL to fetch resume data from.
       dataType: 'json', // The expected data type (JSON in this case).
       cache: false, // Disable caching of the AJAX request.
       success: function (data) {
