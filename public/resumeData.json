@@ -150,6 +150,7 @@
         "image": "ohjate.png",
         "url": "https://oh-jate-df48566a1d41.herokuapp.com/"
       },
+      //Project 3 - final project
       {
         "title": "EventHive",
         "category": "EventHive is a single-page application built using the MERN stack (MongoDB, Express, React, Node.js) that empowers users to create, manage, and attend events effortlessly.",
