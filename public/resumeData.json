@@ -151,10 +151,10 @@
         "url": "https://oh-jate-df48566a1d41.herokuapp.com/"
       },
       {
-        "title": "The Book Search",
-        "category": "a fully functioning Google Books API search engine built with a RESTful API, and refactor it to be a GraphQL API built with Apollo Server. (MERN, React, GraphQL, Apollo Server, Node.js, Express.js, MongoDB, Heroku)",
-        "image": "booksearch-soon.png",
-        "url": "https://github.com/cynthiamory"
+        "title": "EventHive",
+        "category": "EventHive is a single-page application built using the MERN stack (MongoDB, Express, React, Node.js) that empowers users to create, manage, and attend events effortlessly.",
+        "image": "eventhive.png",
+        "url": "https://eventhive-d385699de8e6.herokuapp.com/"
       }
     ]
   },
